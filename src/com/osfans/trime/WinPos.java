@@ -28,6 +28,8 @@ public enum WinPos {
   BOTTOM_RIGHT,
   TOP_LEFT,
   TOP_RIGHT;
+  
+  
 
   public static WinPos fromString(String text) {
     if (text != null) {
